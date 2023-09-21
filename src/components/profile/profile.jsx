@@ -7,6 +7,7 @@ const Profile = () => {
         sequi unde numquam reiciendis vitae id similique laborum libero, nam
         fugit veritatis!
       </h1>
+      <p>test</p>
     </>
   );
 };
