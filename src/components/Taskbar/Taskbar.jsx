@@ -1,5 +1,5 @@
 import { useState } from "react";
-import classes from "./taskbar.module.css";
+import classes from "./Taskbar.module.css";
 
 const Taskbar = () => {
   const [test, setTest] = useState(false);
@@ -40,7 +40,6 @@ const Taskbar = () => {
       <div className={classes.taskbarItem}>
         {isProfile ? <h1>Profile</h1> : <h1>Project</h1>}
       </div>
-      {/* <button onClick={change}></button> */}
     </div>
   );
 };
