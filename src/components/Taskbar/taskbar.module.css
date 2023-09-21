@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0");
+
+.taskbar {
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  justify-content: center;
+  border-radius: 35px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin: 10px;
+  align-items: center;
+}
+
+.taskbarItem {
+  margin: 10px;
+}
+
+.taskbarItem span {
+  font-size: 50px;
+}
+
+.iconButton {
+  padding: 0;
+  border: none;
+  background: none;
+}
