@@ -1,17 +1,21 @@
-import { useState } from "react";
+import { useContext, useState } from "react";
 import classes from "./Taskbar.module.css";
+import ProviderContext from "../Provider/Provider";
 
 const Taskbar = () => {
-  const [test, setTest] = useState(false);
-  const [isProfile, setisProfile] = useState(true);
+  // const [test, setTest] = useState(false);
 
-  const reverseIsProfile = (toDisplay) => {
-    toDisplay == "profile" ? setisProfile(true) : setisProfile(false);
-  };
+  const ctx = useContext(ProviderContext);
 
-  const change = () => {
-    setTest(true);
-  };
+  // const [isProfile, setisProfile] = useState(true);
+
+  // const reverseIsProfile = (toDisplay) => {
+  //   toDisplay == "profile" ? setisProfile(true) : setisProfile(false);
+  // };
+
+  // const change = () => {
+  //   setTest(true);
+  // };
 
   // const afterChange = () => {
   //   var b;
@@ -24,7 +28,7 @@ const Taskbar = () => {
       <div className={classes.taskbarItem}>
         <button
           className={classes.iconButton}
-          onClick={() => reverseIsProfile("profile")}
+          onClick={() => ctx.reverseIsProfile("profile")}
         >
           <span className="material-symbols-outlined">contacts</span>
         </button>
@@ -32,13 +36,13 @@ const Taskbar = () => {
       <div className={classes.taskbarItem}>
         <button
           className={classes.iconButton}
-          onClick={() => reverseIsProfile("")}
+          onClick={() => ctx.reverseIsProfile("")}
         >
           <span className="material-symbols-outlined">smartphone</span>
         </button>
       </div>
       <div className={classes.taskbarItem}>
-        {isProfile ? <h1>Profile</h1> : <h1>Project</h1>}
+        {ctx.isProfile ? <h1>Profile</h1> : <h1>Project</h1>}
       </div>
     </div>
   );

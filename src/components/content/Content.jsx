@@ -1,19 +1,13 @@
-import classes from "./Content.module.css";
+import { useContext } from "react";
+import ProviderContext from "../Provider/Provider";
+import Profile from "../profile/profile";
+import Project from "../project/project";
 
-const Content = (props) => {
+const Content = () => {
   //props here should terima class or some thing like that
-  return (
-    <>
-      <div className={classes.container}>
-        <div className={`${classes.container_item} ${classes.item_one}`}>
-          <h1>Project Name</h1>
-        </div>
-        <div className={`${classes.container_item} ${classes.item_two}`}>
-          <h1>Some Description and well supposedly leh preview</h1>
-        </div>
-      </div>
-    </>
-  );
+  const ctx = useContext(ProviderContext);
+
+  return <>{ctx.isProfile ? <Profile /> : <Project />}</>;
 };
 
 export default Content;
