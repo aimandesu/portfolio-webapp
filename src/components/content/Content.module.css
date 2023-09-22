@@ -1,0 +1,20 @@
+.container {
+  /* width: 100vw; */
+  /* width: fit-content; */
+  margin: 10px;
+  border-radius: 25px;
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.container_item {
+  margin: 10px;
+}
+
+.item_one {
+  width: 20%;
+}
+
+.item_two {
+  flex-grow: 1;
+}
