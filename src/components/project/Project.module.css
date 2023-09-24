@@ -16,5 +16,17 @@
 }
 
 .item_two {
+  display: flex;
   flex-grow: 1;
+  overflow-y: auto;
+  align-items: center;
+}
+
+.item_two img {
+  width: 300px;
+  /* height: 300px; */
+}
+
+.part_images {
+  padding: 10px;
 }
