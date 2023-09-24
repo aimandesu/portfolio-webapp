@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import ProviderContext from "../Provider/Provider";
-import Profile from "../profile/profile";
-import Project from "../project/project";
+import Profile from "../Profile/Profile";
+import Project from "../Project/Project";
 
 const Content = () => {
   //props here should terima class or some thing like that

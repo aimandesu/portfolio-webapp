@@ -5,4 +5,16 @@
   border-radius: 25px;
   display: flex;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  justify-content: space-around;
+}
+
+.container_part {
+}
+
+.left_part {
+  width: 25%;
+}
+
+.right_part {
+  width: 65%;
 }
