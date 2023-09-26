@@ -1,0 +1,17 @@
+.right_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.container_item {
+  padding: 10px;
+}
+
+.bottom_part {
+  display: flex;
+  flex-direction: row;
+}
+
+.bottom_part button {
+  margin-right: 10px;
+}

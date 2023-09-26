@@ -1,5 +1,6 @@
 import Left from "./Left/Left";
 import classes from "./Profile.module.css";
+import Right from "./Right/Right";
 
 const Profile = () => {
   return (
@@ -9,7 +10,7 @@ const Profile = () => {
           <Left />
         </div>
         <div className={`${classes.container_part} ${classes.right_part}`}>
-          <h1>B</h1>
+          <Right />
         </div>
       </div>
     </>

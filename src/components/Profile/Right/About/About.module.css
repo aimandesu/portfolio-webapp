@@ -1,0 +1,9 @@
+.item {
+  display: flex;
+  width: 300px;
+}
+
+.item_each {
+  padding: 5px;
+  width: 50%;
+}
