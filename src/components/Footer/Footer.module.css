@@ -1,0 +1,9 @@
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+.footer_item {
+  font-weight: bold;
+  padding: 20px;
+}

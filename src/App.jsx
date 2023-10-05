@@ -1,12 +1,14 @@
 import { useState } from "react";
 import Taskbar from "./components/Taskbar/Taskbar";
 import Content from "./components/content/Content";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
     <>
       <Taskbar />
       <Content /> {/* should get from taskbar */}
+      <Footer />
     </>
   );
 }

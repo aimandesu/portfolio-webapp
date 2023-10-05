@@ -1,5 +1,6 @@
 export default class ProjectClass {
-  constructor(name, project, photos = []) {
+  constructor(type, name, project, photos = []) {
+    this.type = type;
     this.name = name;
     this.project = project;
     this.photos = photos;
