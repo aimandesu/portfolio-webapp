@@ -15,7 +15,7 @@ const Right = () => {
       <div className={classes.right_container}>
         <div className={classes.container_item}>
           <h1>Aiman Afiq bin Esam</h1>
-          <p>Junior App & Web Developer</p>
+          <p>Junior Mobile & Web Developer</p>
         </div>
         <div className={`${classes.container_item} `}>
           <div className={classes.bottom_part}>

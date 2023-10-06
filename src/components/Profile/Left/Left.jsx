@@ -19,6 +19,14 @@ const Left = () => {
           <p>Web App Development - React Js</p>
           <p>Database - SQL & Firebase</p>
         </div>
+        <div
+          className={`${classes.container_item} ${classes.container_fourth}`}
+        >
+          <h1>GitHub Profile</h1>
+          <a href="https://github.com/aimandesu" target="_blank">
+            <p>https://github.com/aimandesu</p>
+          </a>
+        </div>
       </div>
     </>
   );

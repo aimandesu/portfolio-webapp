@@ -5,6 +5,13 @@
 
 .container_item {
   padding: 10px;
+  animation-name: container_item;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  /* animation-fill-mode: none; */
 }
 
 .bottom_part {
@@ -14,4 +21,23 @@
 
 .bottom_part button {
   margin-right: 10px;
+  /* transition-property: transform;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in;
+  transition-delay: 0s; */
+  /* transition: transform 0.3s ease-in 0s; */
+  transition: all 0.3s ease-in 0s;
+}
+
+.bottom_part button:hover {
+  transform: translateY(-5px);
+}
+
+@keyframes container_item {
+  from {
+    transform: translateX(-100px);
+  }
+  to {
+    transform: translateX(0);
+  }
 }

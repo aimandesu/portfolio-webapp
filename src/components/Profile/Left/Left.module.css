@@ -18,6 +18,11 @@
 }
 
 .container_two,
-.container_three {
+.container_three,
+.container_fourth {
   border-top: 2px solid black;
+}
+
+a {
+  text-decoration: none;
 }

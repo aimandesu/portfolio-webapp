@@ -30,3 +30,12 @@
 .part_images {
   padding: 10px;
 }
+
+.no_project {
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  padding: 10px;
+}
