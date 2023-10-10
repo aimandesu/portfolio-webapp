@@ -2,6 +2,7 @@ import { useState } from "react";
 import classes from "./Right.module.css";
 import Timeline from "./Timeline/Timeline";
 import About from "./About/About";
+import Education from "./Education/Education"
 
 const Right = () => {
   const [isTimeline, setisTimeline] = useState(true);
@@ -23,6 +24,10 @@ const Right = () => {
             <button onClick={() => isChanged()}>About</button>
           </div>
           {isTimeline ? <Timeline /> : <About />}
+        </div>
+        <div className={classes.container_item}>
+          <h1>Education</h1>
+          <Education />
         </div>
       </div>
     </>
