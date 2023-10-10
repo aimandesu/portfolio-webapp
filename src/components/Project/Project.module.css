@@ -39,3 +39,17 @@
 .title {
   padding: 10px;
 }
+
+@keyframes vibrateTop {
+  0% {
+    transform: translateY(-10px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.project_name {
+  animation: vibrateTop 1s ease-out;
+}

@@ -1,0 +1,13 @@
+.education {
+  display: flex;
+  overflow-y: auto;
+  text-align: center;
+}
+
+.education_item {
+  padding: 10px;
+}
+
+.education_item img {
+  height: 400px;
+}
