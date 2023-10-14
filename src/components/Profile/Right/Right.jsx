@@ -2,7 +2,7 @@ import { useState } from "react";
 import classes from "./Right.module.css";
 import Timeline from "./Timeline/Timeline";
 import About from "./About/About";
-import Education from "./Education/Education"
+import Education from "./Education/Education";
 
 const Right = () => {
   const [isTimeline, setisTimeline] = useState(true);

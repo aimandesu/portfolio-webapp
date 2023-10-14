@@ -8,13 +8,16 @@
   justify-content: space-around;
 }
 
-.container_part {
-}
-
 .left_part {
   width: 25%;
 }
 
 .right_part {
   width: 65%;
+}
+
+@media (max-width: 650px) {
+  .container {
+    flex-direction: column;
+  }
 }

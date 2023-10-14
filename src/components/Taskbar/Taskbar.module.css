@@ -25,3 +25,9 @@
   border: none;
   background: none;
 }
+
+@media (max-width: 650px) {
+  .taskbar {
+    width: auto;
+  }
+}

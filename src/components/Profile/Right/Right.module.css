@@ -35,9 +35,15 @@
 
 @keyframes container_item {
   from {
-    transform: translateX(-100px);
+    transform: translateX(-50px);
   }
   to {
     transform: translateX(0);
+  }
+}
+
+@media (max-width: 650px) {
+  .right_container {
+    width: 90vw;
   }
 }

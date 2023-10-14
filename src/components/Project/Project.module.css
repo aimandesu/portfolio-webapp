@@ -53,3 +53,12 @@
 .project_name {
   animation: vibrateTop 1s ease-out;
 }
+
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+  .item_one {
+    width: 90vw;
+  }
+}

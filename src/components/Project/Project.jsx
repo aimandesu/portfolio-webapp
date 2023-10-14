@@ -8,7 +8,7 @@ const Project = () => {
   const mobile = [
     new ProjectClass(
       "Natural Hazard Assistance Hub",
-      "Natural Hazard Assistance is mobile application built on FLutter framework",
+      "Natural Hazard Assistance is mobile application built on Flutter framework",
       [
         "./Images/Mobile/1.jpg",
         "./Images/chibi1.png",

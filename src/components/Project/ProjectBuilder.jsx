@@ -11,6 +11,7 @@ const ProjectBuilder = (props) => {
             <div className={`${classes.container_item} ${classes.item_one}`}>
               <h1 className={classes.project_name}>{project.name}</h1>
               <p className={classes.project_name}>{project.project}</p>
+              <p>options here, 2 options</p>
             </div>
             <div className={`${classes.container_item} ${classes.item_two}`}>
               {project.photos.map((photo, photoIndex) => (
