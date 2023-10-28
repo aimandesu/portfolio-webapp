@@ -1,8 +1,11 @@
 * {
   box-sizing: border-box;
+  color: whitesmoke;
 }
 
 body {
   margin: 0;
   /* background-color: #1a1a1a; */
+
+  background-color: #121d49;
 }

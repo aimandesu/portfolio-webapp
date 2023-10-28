@@ -11,7 +11,14 @@ const ProjectBuilder = (props) => {
             <div className={`${classes.container_item} ${classes.item_one}`}>
               <h1 className={classes.project_name}>{project.name}</h1>
               <p className={classes.project_name}>{project.project}</p>
-              <p>options here, 2 options</p>
+              <div className={classes.container_git_vid}>
+                <a href={project.github} target="_blank">
+                  <span class="material-symbols-outlined">code</span>
+                </a>
+                <a href={project.video}>
+                  <span class="material-symbols-outlined">smart_display</span>
+                </a>
+              </div>
             </div>
             <div className={`${classes.container_item} ${classes.item_two}`}>
               {project.photos.map((photo, photoIndex) => (

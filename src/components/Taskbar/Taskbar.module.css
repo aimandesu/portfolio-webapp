@@ -4,16 +4,16 @@
   width: fit-content;
   display: flex;
   flex-direction: row;
-  background-color: white;
-  justify-content: center;
+  justify-content: start;
   border-radius: 35px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   margin: 10px;
   align-items: center;
+  background-color: #22306a;
 }
 
-.taskbarItem {
-  margin: 10px;
+.taskbarItem_3 {
+  margin-right: 10px;
 }
 
 .taskbarItem span {

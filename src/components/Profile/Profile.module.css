@@ -6,14 +6,15 @@
   display: flex;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   justify-content: space-around;
+  background-color: #22306a;
 }
 
 .left_part {
-  width: 25%;
+  width: 20%;
 }
 
 .right_part {
-  width: 65%;
+  width: 70%;
 }
 
 @media (max-width: 650px) {

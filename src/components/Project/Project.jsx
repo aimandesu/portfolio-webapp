@@ -10,26 +10,53 @@ const Project = () => {
       "Natural Hazard Assistance Hub",
       "Natural Hazard Assistance is mobile application built on Flutter framework",
       [
-        "./Images/Mobile/1.jpg",
-        "./Images/chibi1.png",
-        "./Images/chibi1.png",
-        "./Images/Mobile/1.jpg",
-      ]
+        "./Images/Mobile/natural_hazard_hub/0.png",
+        "./Images/Mobile/natural_hazard_hub/1.png",
+        "./Images/Mobile/natural_hazard_hub/2.png",
+        "./Images/Mobile/natural_hazard_hub/3.png",
+        "./Images/Mobile/natural_hazard_hub/0.png",
+        "./Images/Mobile/natural_hazard_hub/1.png",
+        "./Images/Mobile/natural_hazard_hub/0.png",
+        "./Images/Mobile/natural_hazard_hub/1.png",
+        "./Images/Mobile/natural_hazard_hub/2.png",
+        "./Images/Mobile/natural_hazard_hub/3.png",
+        "./Images/Mobile/natural_hazard_hub/0.png",
+        "./Images/Mobile/natural_hazard_hub/1.png",
+      ],
+      "https://www.youtube.com/",
+      "youtube.com"
     ),
     new ProjectClass(
       "Family",
       "Family is a mobile application built on Flutter framework",
-      ["./Images/chibi1.png", "./Images/chibi1.png"]
+      ["./Images/chibi1.png", "./Images/chibi1.png"],
+      "youtube.com",
+      "youtube.com"
     ),
     new ProjectClass(
       "Notely",
       "Notely is a mobile application built on Flutter framework",
-      ["./Images/Mobile/1.jpg"]
+      ["./Images/Mobile/1.jpg"],
+      "youtube.com",
+      "youtube.com"
     ),
     new ProjectClass(
       "Rents Car",
       "Rents car is a mobile application built on Jetpack Compose",
-      ["./Images/Mobile/1.jpg"]
+      [
+        "./Images/Web/test.jpg",
+        "./Images/Web/test.jpg",
+        "./Images/Web/test.jpg",
+        "./Images/Web/test.jpg",
+        "./Images/Web/test.jpg",
+        "./Images/Web/test.jpg",
+        "./Images/Web/test.jpg",
+        "./Images/Web/test.jpg",
+        "./Images/Web/test.jpg",
+        "./Images/Web/test.jpg",
+      ],
+      "youtube.com",
+      "youtube.com"
     ),
   ];
   const web = [];

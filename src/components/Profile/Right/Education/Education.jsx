@@ -1,6 +1,7 @@
 import { useState } from "react";
 import CertificationClass from "../../../Class/CertificationClass";
 import EducationBuilder from "./EducationBuilder";
+import classes from "./Education.module.css";
 
 const Education = () => {
   const [isDiploma, setisDiploma] = useState(true);
@@ -24,12 +25,8 @@ const Education = () => {
 
   return (
     <>
-      <button onClick={() => viewEducation("diploma")}>
-        <p>Diploma</p>
-      </button>
-      <button onClick={() => viewEducation("")}>
-        <p>Degree</p>
-      </button>
+      <button onClick={() => viewEducation("diploma")}>Diploma</button>
+      <button onClick={() => viewEducation("")}>Degree</button>
       {isDiploma ? (
         <EducationBuilder education={diploma} />
       ) : (

@@ -5,7 +5,7 @@ const Left = () => {
     <>
       <div className={classes.left_container}>
         <div className={`${classes.container_item} ${classes.container_first}`}>
-          <img src="./Images/chibi1.png" alt="" />
+          <img src="./Images/profile.jpg" alt="" />
         </div>
         <div className={`${classes.container_item} ${classes.container_two}`}>
           <h1>Personal Information</h1>

@@ -41,7 +41,7 @@ const Taskbar = () => {
           <span className="material-symbols-outlined">smartphone</span>
         </button>
       </div>
-      <div className={classes.taskbarItem}>
+      <div className={`${classes.taskbarItem} ${classes.taskbarItem_3}`}>
         {ctx.isProfile ? <h1>Profile</h1> : <h1>Project</h1>}
       </div>
     </div>

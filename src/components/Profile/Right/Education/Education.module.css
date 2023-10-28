@@ -11,3 +11,12 @@
 .education_item img {
   height: 400px;
 }
+
+button {
+  background-color: whitesmoke;
+  color: black;
+  width: 80px;
+  height: 30px;
+  border-radius: 30px;
+  margin-right: 10px;
+}
