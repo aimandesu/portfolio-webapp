@@ -13,7 +13,7 @@ const About = () => {
       </div>
       <div className={classes.item}>
         <div className={classes.item_each}>
-          <p>Work Email</p>
+          <p>Email</p>
         </div>
         <div className={classes.item_each}>
           <p>somethinglol@gmail.com</p>

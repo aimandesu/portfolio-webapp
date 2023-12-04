@@ -59,7 +59,26 @@ const Project = () => {
       "youtube.com"
     ),
   ];
-  const web = [];
+  const web = [
+    new ProjectClass(
+      "Natural Hazard Assistance - Admin",
+      "Natural Hazard Assistance - Admin is a flutter web application built on Flutter framework",
+      [
+        "./Images/Web/test.jpg",
+        "./Images/Web/test.jpg",
+        "./Images/Web/test.jpg",
+        "./Images/Web/test.jpg",
+        "./Images/Web/test.jpg",
+        "./Images/Web/test.jpg",
+        "./Images/Web/test.jpg",
+        "./Images/Web/test.jpg",
+        "./Images/Web/test.jpg",
+        "./Images/Web/test.jpg",
+      ],
+      "youtube.com",
+      "youtube.com"
+    ),
+  ];
 
   const desktop = [];
 

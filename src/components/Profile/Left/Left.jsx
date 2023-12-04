@@ -9,9 +9,9 @@ const Left = () => {
         </div>
         <div className={`${classes.container_item} ${classes.container_two}`}>
           <h1>Personal Information</h1>
-          <p>UiTM Tapah</p>
-          <p>Station 18, Ipoh, Perak</p>
-          <p>CGPA 3.28</p>
+          <p>Education | UiTM Merbok & Tapah</p>
+          <p>Hometown | Station 18, Ipoh, Perak</p>
+          <p>CGPA | 3.28</p>
         </div>
         <div className={`${classes.container_item} ${classes.container_three}`}>
           <h1>Technologies Known</h1>
