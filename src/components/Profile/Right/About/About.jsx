@@ -16,7 +16,7 @@ const About = () => {
           <p>Email</p>
         </div>
         <div className={classes.item_each}>
-          <p>somethinglol@gmail.com</p>
+          <p>aimanafiqbinesam@gmail.com</p>
         </div>
       </div>
     </>

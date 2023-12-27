@@ -4,29 +4,64 @@ import EducationBuilder from "./EducationBuilder";
 import classes from "./Education.module.css";
 
 const Education = () => {
+  const diplomaCert = "./Images/Education/Diploma/diploma.pdf";
+  const degreeCert = "./Images/Education/Degree/degree.pdf";
+
   const [isDiploma, setisDiploma] = useState(true);
+  const [cert, setisCert] = useState(diplomaCert);
+
+  const openPDF = (location) => {
+    window.open(location, "_blank");
+  };
 
   const diploma = [
-    new CertificationClass("semester one", "./Images/Mobile/1.jpg"),
-    new CertificationClass("semester two", "./Images/Mobile/1.jpg"),
-    new CertificationClass("semester three", "./Images/Mobile/1.jpg"),
-    new CertificationClass("semester four", "./Images/Mobile/1.jpg"),
-    new CertificationClass("semester five", "./Images/Mobile/1.jpg"),
+    new CertificationClass(
+      "semester one",
+      "./Images/Education/Diploma/sem1.jpg"
+    ),
+    new CertificationClass(
+      "semester two",
+      "./Images/Education/Diploma/sem2.jpg"
+    ),
+    new CertificationClass(
+      "semester three",
+      "./Images/Education/Diploma/sem3.jpg"
+    ),
+    new CertificationClass(
+      "semester four",
+      "./Images/Education/Diploma/sem4.jpg"
+    ),
   ];
   const degree = [
-    new CertificationClass("semester three", "./Images/Mobile/1.jpg"),
-    new CertificationClass("semester four", "./Images/Mobile/1.jpg"),
-    new CertificationClass("semester five", "./Images/Mobile/1.jpg"),
+    new CertificationClass("PC", "./Images/Education/Degree/pc.jpg"),
+    new CertificationClass(
+      "semester three",
+      "./Images/Education/Degree/sem3.jpg"
+    ),
+    new CertificationClass(
+      "semester four",
+      "./Images/Education/Degree/sem4.jpg"
+    ),
+    new CertificationClass(
+      "semester five",
+      "./Images/Education/Degree/sem5.jpg"
+    ),
   ];
 
   const viewEducation = (educationView) => {
     educationView == "diploma" ? setisDiploma(true) : setisDiploma(false);
+    educationView == "diploma" ? setisCert(diplomaCert) : setisCert(degreeCert);
   };
 
   return (
     <>
       <button onClick={() => viewEducation("diploma")}>Diploma</button>
       <button onClick={() => viewEducation("")}>Degree</button>
+      <div className={classes.certificate} onClick={() => openPDF(cert)}>
+        <p>Download Transcript</p>
+        <span class="material-symbols-outlined">download</span>
+      </div>
+
       {isDiploma ? (
         <EducationBuilder education={diploma} />
       ) : (
