@@ -15,8 +15,8 @@ const Project = () => {
         "./Images/Mobile/natural_hazard_hub/2.png",
         "./Images/Mobile/natural_hazard_hub/3.png",
       ],
-      "https://www.youtube.com/",
-      "youtube.com"
+      "https://github.com/aimandesu/fyp-project",
+      ""
     ),
     new ProjectClass(
       "Notely",
@@ -27,8 +27,8 @@ const Project = () => {
         "./Images/Mobile/NoteApp/3.png",
         "./Images/Mobile/NoteApp/4.png",
       ],
-      "youtube.com",
-      "youtube.com"
+      "https://github.com/aimandesu/notes-app",
+      ""
     ),
     new ProjectClass(
       "Rents Car",
@@ -39,8 +39,8 @@ const Project = () => {
         "./Images/Mobile/CarRents/3.png",
         "./Images/Mobile/CarRents/4.png",
       ],
-      "youtube.com",
-      "youtube.com"
+      "https://github.com/aimandesu/CSC557",
+      ""
     ),
     new ProjectClass(
       "Contact",
@@ -57,8 +57,8 @@ const Project = () => {
         "./Images/Mobile/Contact/9.png",
         "./Images/Mobile/Contact/10.png",
       ],
-      "youtube.com",
-      "youtube.com"
+      "https://github.com/aimandesu/flutter-assessment",
+      ""
     ),
   ];
   const web = [
@@ -71,8 +71,8 @@ const Project = () => {
         "./Images/Web/natural_hazard_hub/3.jpg",
         "./Images/Web/natural_hazard_hub/4.jpg",
       ],
-      "youtube.com",
-      "youtube.com"
+      "https://github.com/aimandesu/fyp-project",
+      ""
     ),
   ];
 
