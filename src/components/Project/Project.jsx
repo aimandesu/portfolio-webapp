@@ -78,8 +78,24 @@ const Project = () => {
         "./Images/Web/natural_hazard_hub/2.jpg",
         "./Images/Web/natural_hazard_hub/3.jpg",
         "./Images/Web/natural_hazard_hub/4.jpg",
+        "./Images/Web/natural_hazard_hub/5.jpg",
+        "./Images/Web/natural_hazard_hub/6.jpg",
       ],
       "https://github.com/aimandesu/fyp-project",
+      ""
+    ),
+    new ProjectClass(
+      "Cancer Detection",
+      "Cancer Detection is a web application built on streamlit",
+      [
+        "./Images/Web/cancer_detection/1.jpg",
+        "./Images/Web/cancer_detection/2.jpg",
+        "./Images/Web/cancer_detection/3.jpg",
+        "./Images/Web/cancer_detection/4.jpg",
+        "./Images/Web/cancer_detection/5.jpg",
+        "./Images/Web/cancer_detection/6.jpg",
+      ],
+      "https://github.com/aimandesu/streamlit",
       ""
     ),
   ];

@@ -17,6 +17,7 @@ const Left = () => {
           <h1>Technologies Known</h1>
           <p>Android Development - Compose & Flutter</p>
           <p>Web App Development - React Js</p>
+          <p>Backend - Express Js</p>
           <p>Database - SQL & Firebase</p>
         </div>
         <div
