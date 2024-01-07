@@ -30,7 +30,12 @@ const Taskbar = () => {
           className={classes.iconButton}
           onClick={() => ctx.reverseIsProfile("profile")}
         >
-          <span className="material-symbols-outlined">contacts</span>
+          <img
+            className={classes.img}
+            src="./Images/Icon/resume.png"
+            alt=""
+            srcset=""
+          />
         </button>
       </div>
       <div className={classes.taskbarItem}>
@@ -38,7 +43,12 @@ const Taskbar = () => {
           className={classes.iconButton}
           onClick={() => ctx.reverseIsProfile("")}
         >
-          <span className="material-symbols-outlined">smartphone</span>
+          <img
+            className={classes.img}
+            src="./Images/Icon/project.png"
+            alt=""
+            srcset=""
+          />
         </button>
       </div>
       <div className={`${classes.taskbarItem} ${classes.taskbarItem_3}`}>

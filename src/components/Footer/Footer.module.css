@@ -1,9 +1,17 @@
 .footer {
   display: flex;
   justify-content: center;
+  position: relative;
 }
 
 .footer_item {
   font-weight: bold;
   padding: 20px;
+}
+
+@media (min-width: 900px) {
+  .attribute {
+    position: absolute;
+    right: 0;
+  }
 }

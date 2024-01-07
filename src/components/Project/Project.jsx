@@ -22,6 +22,10 @@ const Project = () => {
         "./Images/Mobile/natural_hazard_hub/10.png",
         "./Images/Mobile/natural_hazard_hub/11.png",
         "./Images/Mobile/natural_hazard_hub/12.png",
+        "./Images/Mobile/natural_hazard_hub/13.png",
+        "./Images/Mobile/natural_hazard_hub/14.png",
+        "./Images/Mobile/natural_hazard_hub/15.png",
+        "./Images/Mobile/natural_hazard_hub/16.png",
       ],
       "https://github.com/aimandesu/fyp-project",
       ""
