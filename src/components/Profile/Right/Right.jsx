@@ -15,10 +15,13 @@ const Right = () => {
     <>
       <div className={classes.right_container}>
         <div className={classes.container_item}>
-          <h1>Aiman Afiq bin Esam</h1>
-          <p>Junior Mobile & Web Developer</p>
+          <h1>GitHub Profile</h1>
+          <a href="https://github.com/aimandesu" target="_blank">
+            <p>https://github.com/aimandesu</p>
+          </a>
         </div>
         <div className={`${classes.container_item} `}>
+          {isTimeline ? <h1>Timeline</h1> : <h1>About</h1>}
           <div className={classes.bottom_part}>
             <button onClick={() => isChanged("timeline")}>Timeline</button>
             <button onClick={() => isChanged()}>About</button>

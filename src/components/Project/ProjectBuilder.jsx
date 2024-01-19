@@ -13,17 +13,19 @@ const ProjectBuilder = (props) => {
               <p className={classes.project_name}>{project.project}</p>
               <div className={classes.container_git_vid}>
                 <a href={project.github} target="_blank">
-                  <span class="material-symbols-outlined">code</span>
+                  <span className="material-symbols-outlined">code</span>
                 </a>
                 <a href={project.video}>
-                  <span class="material-symbols-outlined">smart_display</span>
+                  <span className="material-symbols-outlined">
+                    smart_display
+                  </span>
                 </a>
               </div>
             </div>
             <div className={`${classes.container_item} ${classes.item_two}`}>
               {project.photos.map((photo, photoIndex) => (
                 <div key={photoIndex} className={classes.part_images}>
-                  <img src={photo} alt={photoIndex} />
+                  <img srcSet={photo} alt={photoIndex} />
                 </div>
               ))}
             </div>

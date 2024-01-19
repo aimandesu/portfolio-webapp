@@ -9,6 +9,7 @@ const Footer = () => {
           <a
             href="https://www.flaticon.com/free-icons/project"
             title="project icons"
+            target="_blank"
           >
             Project icons created by Freepik - Flaticon
           </a>

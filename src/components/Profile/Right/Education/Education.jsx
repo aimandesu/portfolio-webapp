@@ -6,9 +6,11 @@ import classes from "./Education.module.css";
 const Education = () => {
   const diplomaCert = "./Images/Education/Diploma/diploma.pdf";
   const degreeCert = "./Images/Education/Degree/degree.pdf";
+  const which = "diploma";
 
   const [isDiploma, setisDiploma] = useState(true);
   const [cert, setisCert] = useState(diplomaCert);
+  const [isWhich, setIsWhich] = useState(which);
 
   const openPDF = (location) => {
     window.open(location, "_blank");
@@ -51,6 +53,7 @@ const Education = () => {
   const viewEducation = (educationView) => {
     educationView == "diploma" ? setisDiploma(true) : setisDiploma(false);
     educationView == "diploma" ? setisCert(diplomaCert) : setisCert(degreeCert);
+    educationView == "diploma" ? setIsWhich("diploma") : setIsWhich("degree");
   };
 
   return (
@@ -58,8 +61,8 @@ const Education = () => {
       <button onClick={() => viewEducation("diploma")}>Diploma</button>
       <button onClick={() => viewEducation("")}>Degree</button>
       <div className={classes.certificate} onClick={() => openPDF(cert)}>
-        <p>Download Transcript</p>
-        <span class="material-symbols-outlined">download</span>
+        <p>View/Download {isWhich}</p>
+        <span className="material-symbols-outlined">download</span>
       </div>
 
       {isDiploma ? (

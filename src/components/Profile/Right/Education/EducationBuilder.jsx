@@ -7,7 +7,7 @@ const EducationBuilder = (props) => {
         {props.education.map((education, index) => (
           <>
             <div className={classes.education_item} key={index}>
-              <img src={education.photos} alt="" />
+              <img srcSet={education.photos} alt="" />
               <p>{education.semester}</p>
             </div>
           </>
