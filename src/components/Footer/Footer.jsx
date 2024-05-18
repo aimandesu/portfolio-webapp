@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <>
       <div className={classname.footer}>
-        <div className={classname.footer_item}>Made with ReactJs @ 2023</div>
+        <div className={classname.footer_item}>Made with ReactJs @ 2024</div>
         <div className={`${classname.footer_item} ${classname.attribute}`}>
           <a
             href="https://www.flaticon.com/free-icons/project"

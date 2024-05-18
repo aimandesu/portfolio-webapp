@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Taskbar from "./components/Taskbar/Taskbar";
-import Content from "./components/content/Content";
+import Content from "./components/Content/Content";
 import Footer from "./components/Footer/Footer";
 
 function App() {

@@ -30,6 +30,7 @@
   flex-grow: 1;
   overflow-y: auto;
   align-items: center;
+  width: 80%;
 }
 
 .item_two img {

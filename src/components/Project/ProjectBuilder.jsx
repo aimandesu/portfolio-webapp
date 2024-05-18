@@ -15,11 +15,11 @@ const ProjectBuilder = (props) => {
                 <a href={project.github} target="_blank">
                   <span className="material-symbols-outlined">code</span>
                 </a>
-                <a href={project.video}>
+                {/* <a href={project.video}>
                   <span className="material-symbols-outlined">
                     smart_display
                   </span>
-                </a>
+                </a> */}
               </div>
             </div>
             <div className={`${classes.container_item} ${classes.item_two}`}>

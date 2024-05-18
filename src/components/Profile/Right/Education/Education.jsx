@@ -2,15 +2,17 @@ import { useState } from "react";
 import CertificationClass from "../../../Class/CertificationClass";
 import EducationBuilder from "./EducationBuilder";
 import classes from "./Education.module.css";
+import { Tabs } from "../../../reusableComponents/Tabs";
+import TabsClass from "../../../reusableComponents/TabsClass";
 
 const Education = () => {
   const diplomaCert = "./Images/Education/Diploma/diploma.pdf";
   const degreeCert = "./Images/Education/Degree/degree.pdf";
-  const which = "diploma";
+  // const which = "diploma";
 
-  const [isDiploma, setisDiploma] = useState(true);
-  const [cert, setisCert] = useState(diplomaCert);
-  const [isWhich, setIsWhich] = useState(which);
+  // const [isDiploma, setisDiploma] = useState(true);
+  // const [cert, setisCert] = useState(diplomaCert);
+  // const [isWhich, setIsWhich] = useState(which);
 
   const openPDF = (location) => {
     window.open(location, "_blank");
@@ -50,26 +52,36 @@ const Education = () => {
     ),
   ];
 
-  const viewEducation = (educationView) => {
-    educationView == "diploma" ? setisDiploma(true) : setisDiploma(false);
-    educationView == "diploma" ? setisCert(diplomaCert) : setisCert(degreeCert);
-    educationView == "diploma" ? setIsWhich("diploma") : setIsWhich("degree");
-  };
+  const tabs = [
+    new TabsClass("Diploma", <EducationBuilder education={diploma} />, () =>
+      openPDF(diplomaCert)
+    ),
+    new TabsClass("Degree", <EducationBuilder education={degree} />, () =>
+      openPDF(degreeCert)
+    ),
+  ];
+
+  // const viewEducation = (educationView) => {
+  //   educationView == "diploma" ? setisDiploma(true) : setisDiploma(false);
+  //   educationView == "diploma" ? setisCert(diplomaCert) : setisCert(degreeCert);
+  //   educationView == "diploma" ? setIsWhich("diploma") : setIsWhich("degree");
+  // };
 
   return (
     <>
-      <button onClick={() => viewEducation("diploma")}>Diploma</button>
-      <button onClick={() => viewEducation("")}>Degree</button>
-      <div className={classes.certificate} onClick={() => openPDF(cert)}>
+      {/* <button onClick={() => viewEducation("diploma")}>Diploma</button>
+      <button onClick={() => viewEducation("")}>Degree</button> */}
+      <Tabs tabs={tabs} />
+      {/* <div className={classes.certificate} onClick={() => openPDF(cert)}>
         <p>View/Download {isWhich}</p>
         <span className="material-symbols-outlined">download</span>
-      </div>
+      </div> */}
 
-      {isDiploma ? (
+      {/* {isDiploma ? (
         <EducationBuilder education={diploma} />
       ) : (
         <EducationBuilder education={degree} />
-      )}
+      )} */}
     </>
   );
 };

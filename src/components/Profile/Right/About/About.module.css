@@ -8,10 +8,13 @@
   width: 50%;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
   .item {
     flex-direction: column;
     flex-wrap: wrap;
     width: 90vw;
+  }
+  .title_line {
+    border-bottom: 2px solid #ddd;
   }
 }

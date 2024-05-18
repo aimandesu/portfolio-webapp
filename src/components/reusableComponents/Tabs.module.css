@@ -1,0 +1,43 @@
+.tab_list {
+  display: flex;
+  border-bottom: 2px solid #ddd;
+}
+
+.tab {
+  padding: 10px 20px;
+
+  border: 1px solid transparent;
+  border-bottom: none;
+  background: none;
+  margin-right: 5px;
+  transition: all 0.3s ease;
+}
+
+.tab:hover {
+  background: #007bff;
+}
+
+.tab.active {
+  border-color: #ccc #ccc #fff;
+  border-bottom: 2px solid #007bff;
+  color: whitesmoke;
+}
+
+.tab:focus {
+  outline: none;
+}
+
+.tab_content {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-top: none;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+}
+
+.option span {
+  cursor: pointer;
+}

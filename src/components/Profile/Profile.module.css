@@ -22,3 +22,13 @@
     flex-direction: column;
   }
 }
+
+@media (max-width: 1321px) {
+  .left_part {
+    width: 30%;
+  }
+
+  .right_part {
+    width: 70%;
+  }
+}

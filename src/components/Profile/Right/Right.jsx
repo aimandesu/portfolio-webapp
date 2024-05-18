@@ -3,6 +3,8 @@ import classes from "./Right.module.css";
 import Timeline from "./Timeline/Timeline";
 import About from "./About/About";
 import Education from "./Education/Education";
+import { Tabs } from "../../reusableComponents/Tabs";
+import TabsClass from "../../reusableComponents/TabsClass";
 
 const Right = () => {
   const [isTimeline, setisTimeline] = useState(true);
@@ -10,6 +12,11 @@ const Right = () => {
   const isChanged = (toDisplay) => {
     toDisplay == "timeline" ? setisTimeline(true) : setisTimeline(false);
   };
+
+  const tabs = [
+    new TabsClass("Timeline", <Timeline />),
+    new TabsClass("About", <About />),
+  ];
 
   return (
     <>
@@ -21,12 +28,13 @@ const Right = () => {
           </a>
         </div>
         <div className={`${classes.container_item} `}>
-          {isTimeline ? <h1>Timeline</h1> : <h1>About</h1>}
+          <Tabs tabs={tabs} />
+          {/* {isTimeline ? <h1>Timeline</h1> : <h1>About</h1>}
           <div className={classes.bottom_part}>
             <button onClick={() => isChanged("timeline")}>Timeline</button>
             <button onClick={() => isChanged()}>About</button>
           </div>
-          {isTimeline ? <Timeline /> : <About />}
+          {isTimeline ? <Timeline /> : <About />} */}
         </div>
         <div className={classes.container_item}>
           <h1>Education</h1>

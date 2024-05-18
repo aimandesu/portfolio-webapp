@@ -25,8 +25,9 @@
 
 .container_two,
 .container_three,
-.container_fourth {
-  border-top: 2px solid black;
+.container_fourth,
+.container_fifth {
+  border-top: 2px solid whitesmoke;
 }
 
 a {
@@ -57,4 +58,13 @@ a {
   .container_item img {
     width: 100%;
   }
+}
+
+.container_fifth {
+  padding-top: 10px;
+}
+
+.container_fifth span {
+  cursor: pointer;
+  font-size: 40px;
 }

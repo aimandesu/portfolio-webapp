@@ -5,7 +5,7 @@ const About = () => {
     <>
       <div className={classes.item}>
         <div className={classes.item_each}>
-          <p>Address</p>
+          <p className={classes.title_line}>Address</p>
         </div>
         <div className={classes.item_each}>
           <p>Station 18, Ipoh, Perak</p>
@@ -13,7 +13,7 @@ const About = () => {
       </div>
       <div className={classes.item}>
         <div className={classes.item_each}>
-          <p>Email</p>
+          <p className={classes.title_line}>Email</p>
         </div>
         <div className={classes.item_each}>
           <p>aimanafiqbinesam@gmail.com</p>

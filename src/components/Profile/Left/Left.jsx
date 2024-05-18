@@ -1,12 +1,25 @@
 import classes from "./Left.module.css";
 
 const Left = () => {
+  const diplomaCert = "./Images/Education/Diploma/diploma.pdf";
+
+  const openPDF = (location) => {
+    window.open(location, "_blank");
+  };
   return (
     <>
       <div className={classes.left_container}>
         <div className={`${classes.container_item} ${classes.container_first}`}>
           <img srcSet="./Images/profile.jpg" alt="" />
         </div>
+        {/* <div className={`${classes.container_item} ${classes.container_fifth}`}>
+          <span
+            onClick={() => openPDF(diplomaCert)}
+            class="material-symbols-outlined"
+          >
+            description
+          </span>
+        </div> */}
         <div
           className={`${classes.container_item} ${classes.container_fourth}`}
         >

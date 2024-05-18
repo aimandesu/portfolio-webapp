@@ -3,6 +3,8 @@ import ReactDOM from "react-dom/client";
 import App from "./App";
 import "./index.css";
 
+//rafce for quick components
+
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { Provider } from "./components/Provider/Provider";
 

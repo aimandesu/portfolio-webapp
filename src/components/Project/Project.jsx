@@ -27,8 +27,7 @@ const Project = () => {
         "./Images/Mobile/natural_hazard_hub/15.png",
         "./Images/Mobile/natural_hazard_hub/16.png",
       ],
-      "https://github.com/aimandesu/fyp-project",
-      ""
+      "https://github.com/aimandesu/fyp-project"
     ),
     new ProjectClass(
       "Notely",
@@ -39,8 +38,7 @@ const Project = () => {
         "./Images/Mobile/NoteApp/3.png",
         "./Images/Mobile/NoteApp/4.png",
       ],
-      "https://github.com/aimandesu/notes-app",
-      ""
+      "https://github.com/aimandesu/notes-app"
     ),
     new ProjectClass(
       "Rents Car",
@@ -51,8 +49,7 @@ const Project = () => {
         "./Images/Mobile/CarRents/3.png",
         "./Images/Mobile/CarRents/4.png",
       ],
-      "https://github.com/aimandesu/CSC557",
-      ""
+      "https://github.com/aimandesu/CSC557"
     ),
     new ProjectClass(
       "Contact",
@@ -69,8 +66,7 @@ const Project = () => {
         "./Images/Mobile/Contact/9.png",
         "./Images/Mobile/Contact/10.png",
       ],
-      "https://github.com/aimandesu/flutter-assessment",
-      ""
+      "https://github.com/aimandesu/flutter-assessment"
     ),
   ];
   const web = [
@@ -85,8 +81,7 @@ const Project = () => {
         "./Images/Web/natural_hazard_hub/5.jpg",
         "./Images/Web/natural_hazard_hub/6.jpg",
       ],
-      "https://github.com/aimandesu/fyp-project",
-      ""
+      "https://github.com/aimandesu/fyp-project"
     ),
     new ProjectClass(
       "Cancer Detection",
@@ -99,8 +94,7 @@ const Project = () => {
         "./Images/Web/cancer_detection/5.jpg",
         "./Images/Web/cancer_detection/6.jpg",
       ],
-      "https://github.com/aimandesu/streamlit",
-      ""
+      "https://github.com/aimandesu/streamlit"
     ),
   ];
 

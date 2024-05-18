@@ -1,0 +1,21 @@
+.container_work {
+  display: flex;
+  flex-direction: row;
+  /* background-color: rebeccapurple; */
+  height: 100px;
+  align-items: center;
+}
+
+.container_work span {
+  font-size: 49px;
+}
+
+.container_work_item {
+  margin: 10px 5px;
+}
+
+.timeline_container {
+  overflow-y: auto;
+  overflow-x: hidden;
+  max-height: 300px;
+}
