@@ -5,7 +5,7 @@ const TimelineDetails = (props) => {
       <h2>{props.job.name}</h2>
       <div className={classes.container_work}>
         <div className={classes.container_work_item}>
-          <span className="material-symbols-outlined">computer</span>
+          <span className="material-symbols-outlined">smartphone</span>
         </div>
         <div
           className={`${classes.container_work_item} ${classes.container_work_item_2}`}

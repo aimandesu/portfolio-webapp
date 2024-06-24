@@ -11,7 +11,7 @@ const Footer = () => {
             title="project icons"
             target="_blank"
           >
-            Project icons created by Freepik - Flaticon
+            {/* Project icons created by Freepik - Flaticon */}
           </a>
         </div>
       </div>

@@ -5,7 +5,7 @@
   border-radius: 25px;
   display: flex;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  background-color: #22306a;
+  background-color: rgb(78, 59, 87);
 }
 
 .container_git_vid {
@@ -71,5 +71,9 @@
   }
   .item_one {
     width: 90vw;
+  }
+
+  .item_two {
+    width: 95%;
   }
 }

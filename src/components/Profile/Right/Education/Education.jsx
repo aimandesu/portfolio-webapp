@@ -50,6 +50,10 @@ const Education = () => {
       "semester five",
       "./Images/Education/Degree/sem5.jpg"
     ),
+    new CertificationClass(
+      "semester six",
+      "./Images/Education/Degree/sem6.jpg"
+    ),
   ];
 
   const tabs = [

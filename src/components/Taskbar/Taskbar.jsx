@@ -24,25 +24,30 @@ const Taskbar = () => {
   // };
 
   return (
-    <div className={classes.taskbar}>
-      <div className={classes.taskbarItem}>
-        <button
-          className={classes.iconButton}
-          onClick={() => ctx.reverseIsProfile("profile")}
-        >
-          <span className="material-symbols-outlined">contacts</span>
-        </button>
+    <div className={classes.mainTaskbar}>
+      <div className={classes.taskbar}>
+        <div className={classes.taskbarItem}>
+          <button
+            className={classes.iconButton}
+            onClick={() => ctx.reverseIsProfile("profile")}
+          >
+            <span className="material-symbols-outlined">account_box</span>
+          </button>
+        </div>
+        <div className={classes.taskbarItem}>
+          <button
+            className={classes.iconButton}
+            onClick={() => ctx.reverseIsProfile("")}
+          >
+            <span className="material-symbols-outlined">computer</span>
+          </button>
+        </div>
+        <div className={`${classes.taskbarItem} ${classes.taskbarItem_3}`}>
+          {ctx.isProfile ? <h1>Profile</h1> : <h1>Project</h1>}
+        </div>
       </div>
-      <div className={classes.taskbarItem}>
-        <button
-          className={classes.iconButton}
-          onClick={() => ctx.reverseIsProfile("")}
-        >
-          <span className="material-symbols-outlined">smartphone</span>
-        </button>
-      </div>
-      <div className={`${classes.taskbarItem} ${classes.taskbarItem_3}`}>
-        {ctx.isProfile ? <h1>Profile</h1> : <h1>Project</h1>}
+      <div className={classes.container}>
+        {ctx.isProfile && <p className={classes.text}>Side jobs? PM Me</p>}
       </div>
     </div>
   );

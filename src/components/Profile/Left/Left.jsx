@@ -25,19 +25,21 @@ const Left = () => {
         >
           <h1>Aiman Afiq bin Esam</h1>
           <p>Junior Mobile & Web App Developer</p>
+          <p>Hometown | Station 18, Ipoh, Perak</p>
         </div>
         <div className={`${classes.container_item} ${classes.container_two}`}>
-          <h1>Personal Information</h1>
+          <h1>Education Information</h1>
           <p>Education | UiTM Merbok & Tapah</p>
-          <p>Hometown | Station 18, Ipoh, Perak</p>
-          <p>CGPA | 3.28</p>
+          <p>Diploma | Diploma in Computer Science</p>
+          <p>Degree | Bachelor of Computer Science (HONS.)</p>
+          <p>CGPA | 3.37</p>
         </div>
         <div className={`${classes.container_item} ${classes.container_three}`}>
           <h1>Technologies Known</h1>
-          <p>Android Development - Compose & Flutter</p>
+          <p>Mobile Development - Compose, Flutter</p>
           <p>Web App Development - React Js</p>
-          <p>Backend - Express Js</p>
-          <p>Database - SQL & Firebase</p>
+          <p>Backend - Express Js, Laravel</p>
+          <p>Database - MySQL, SQLite</p>
         </div>
       </div>
     </>

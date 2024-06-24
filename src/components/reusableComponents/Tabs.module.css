@@ -4,7 +4,7 @@
 }
 
 .tab {
-  padding: 10px 20px;
+  padding: 0px 10px;
 
   border: 1px solid transparent;
   border-bottom: none;
@@ -14,12 +14,14 @@
 }
 
 .tab:hover {
-  background: #007bff;
+  cursor: pointer;
+  background: rgb(60, 47, 66);
 }
 
 .tab.active {
-  border-color: #ccc #ccc #fff;
-  border-bottom: 2px solid #007bff;
+  /* border-color: #ccc #ccc #fff; */
+  /* border-bottom: 5px solid rgb(52, 42, 57); */
+  background-color: rgb(52, 42, 57);
   color: whitesmoke;
 }
 
@@ -28,8 +30,8 @@
 }
 
 .tab_content {
-  padding: 20px;
-  border: 1px solid #ddd;
+  /* padding: 5px; */
+  /* border: 1px solid #ddd; */
   border-top: none;
 }
 

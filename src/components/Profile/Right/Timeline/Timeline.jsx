@@ -7,7 +7,7 @@ const Timeline = () => {
     new TimelineClass(
       "Internship",
       "RF Infinite Sdn Bhd",
-      "Internship Flutter Developer",
+      "Flutter Developer",
       "3 Months"
     ),
   ];
