@@ -24,7 +24,7 @@ const Left = () => {
           className={`${classes.container_item} ${classes.container_fourth}`}
         >
           <h1>Aiman Afiq bin Esam</h1>
-          <p>Junior Mobile & Web App Developer</p>
+          <p>Mobile & Web App Developer</p>
           <p>Hometown | Station 18, Ipoh, Perak</p>
         </div>
         <div className={`${classes.container_item} ${classes.container_two}`}>
