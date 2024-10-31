@@ -6,7 +6,7 @@ import { Tabs } from "../../../reusableComponents/Tabs";
 import TabsClass from "../../../reusableComponents/TabsClass";
 
 const Education = () => {
-  const diplomaCert = "./Images/Education/Diploma/diploma.pdf";
+  const diplomaCert = "./Images/Education/Diploma/_diploma.pdf";
   const degreeCert = "./Images/Education/Degree/degree.pdf";
   // const which = "diploma";
 
