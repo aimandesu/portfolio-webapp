@@ -5,10 +5,10 @@ import classes from "./Timeline.module.css";
 const Timeline = () => {
   const JobTimeline = [
     new TimelineClass(
-      "Internship",
+      "Mobile Developer",
       "RF Infinite Sdn Bhd",
       "Flutter Developer",
-      "3 Months"
+      "Current Position"
     ),
   ];
 
