@@ -1,7 +1,7 @@
 import classes from "./Left.module.css";
 
 const Left = () => {
-  const diplomaCert = "./Images/Education/Diploma/_diploma.pdf";
+  const diplomaCert = "./Images/Education/Diploma/diploma.pdf";
 
   const openPDF = (location) => {
     window.open(location, "_blank");
